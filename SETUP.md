@@ -22,18 +22,18 @@ disable_splash=1
 ```
 
 `sudo apt-get install xserver-xorg-input-evdev`  
-`sudo nano /usr/share/X11/xorg.conf.d/45-evdev.conf`  
-`sudo nano /usr/share/X11/xorg.conf.d/99-calibration.conf`
+`sudo nano /usr/share/X11/xorg.conf.d/45-evdev.conf` paste from 45-evdev.conf  
+`sudo nano /usr/share/X11/xorg.conf.d/99-calibration.conf` paste from /99-calibration.conf
 
 # RTC
+
+`sudo apt install util-linux-extra`
 
 `sudo nano /etc/rc.local`
 ```
 /sbin/hwclock -s
 exit0
 ```
-
-`sudo apt install util-linux-extra`
 
 `sudo nano /etc/default/hwcloc`
 ```
