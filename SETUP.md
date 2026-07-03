@@ -70,7 +70,8 @@ scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scroot.png
 
 # apt apps
 
-`sudo apt install onboard`
+`sudo apt install onboard`  
+`sudo apt install retroarch`
 
 # flatpak apps
 
