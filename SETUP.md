@@ -48,7 +48,7 @@ HWCLOCKACCESS=no
 
 `sudo nano /etc/xdg/openbox/rpd-rc.xml`
 ```
-scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scroot.png
+scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scrot.png
 ```
 
 # pi-apps
