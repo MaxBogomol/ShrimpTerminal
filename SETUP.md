@@ -21,7 +21,7 @@ dtoverlay=i2c-rtc,ds3231
 disable_splash=1
 ```
 
-`sudo apt-get install xserver-xorg-input-evdev`  
+`sudo apt install xserver-xorg-input-evdev`  
 `sudo nano /usr/share/X11/xorg.conf.d/45-evdev.conf` paste from 45-evdev.conf  
 `sudo nano /usr/share/X11/xorg.conf.d/99-calibration.conf` paste from 99-calibration.conf
 
