@@ -40,9 +40,9 @@ exit0
 HWCLOCKACCESS=no
 ```
 
-`sudo hwclock -r //read from rct`  
-`sudo hwclock -w //set to rtc`  
-`sudo hwclock -s //set from rtc`
+`sudo hwclock -r` read from rct  
+`sudo hwclock -w` set to rtc  
+`sudo hwclock -s` set from rtc
 
 # Print Screen
 
