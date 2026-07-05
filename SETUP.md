@@ -79,6 +79,6 @@ scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scrot.png
 `sudo apt install flatpak`  
 `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`  
 
-`flatpak install flathub org.libretro.RetroArch`
+`flatpak install flathub org.libretro.RetroArch`  
 `flatpak install flathub net.kuribo64.melonDS`  
 `flatpak install flathub org.ppsspp.PPSSPP`  
