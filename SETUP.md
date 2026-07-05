@@ -70,8 +70,9 @@ scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scrot.png
 
 # apt apps
 
-`sudo apt install onboard`  
 `sudo apt install vim`  
+`sudo apt install openvpn`  
+`sudo apt install onboard`  
 `sudo apt install retroarch`
 
 # flatpak apps
