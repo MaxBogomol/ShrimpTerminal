@@ -79,6 +79,11 @@ scrot ~/Pictures/Screenshots/%Y-%m-%d-%H%M%S_\$wx\$h_scrot.png
 `sudo apt install flatpak`  
 `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo`  
 
-`flatpak install flathub org.libretro.RetroArch`  
+`flatpak run io.mgba.mGBA`  
 `flatpak install flathub net.kuribo64.melonDS`  
 `flatpak install flathub org.ppsspp.PPSSPP`  
+
+`sudo nano /var/lib/flatpak/exports/share/applications/io.mgba.mGBA.desktop`
+```
+Exec=env LIBGL_ALWAYS_SOFTWARE=1 /usr/bin/flatpak
+```
